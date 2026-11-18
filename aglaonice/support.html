@@ -1,49 +1,113 @@
 <!doctype html>
+
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="color-scheme" content="dark">
-  <meta name="description" content="Contact Aglaonice support.">
-  <title>Support · Aglaonice</title>
-  <style>
-    :root { color-scheme: dark; }
-    * { box-sizing: border-box; }
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="dark" name="color-scheme"/>
+<meta content="#000000" name="theme-color"/>
+<meta content="Contact Aglaonice support." name="description"/>
+<title>Support · Aglaonice</title>
+<style>
+    :root {
+      color-scheme: dark;
+      font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif;
+      font-synthesis: none;
+      -webkit-font-smoothing: antialiased;
+      background: #000;
+      color: #fff;
+    }
+
+    *, *::before, *::after { box-sizing: border-box; }
+
     body {
       margin: 0;
       min-height: 100vh;
       background: #000;
       color: #fff;
-      font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif;
-      -webkit-font-smoothing: antialiased;
-    }
-    main {
-      max-width: 720px;
-      margin: 0 auto;
-      padding: 96px 24px;
-    }
-    h1 {
-      margin: 0 0 24px;
-      font-size: clamp(36px, 6vw, 48px);
-      font-weight: 700;
-      letter-spacing: -0.035em;
-    }
-    p {
-      margin: 0;
-      font-size: 17px;
+      font-size: 16px;
       line-height: 1.65;
-      color: #e5e5e7;
-      overflow-wrap: anywhere;
     }
-    @media (max-width: 600px) {
-      main { padding: 64px 24px; }
+
+    .container {
+      width: min(100% - 40px, 720px);
+      margin-inline: auto;
+    }
+
+    header { padding: 48px 0 52px; }
+
+    .brand {
+      font-size: 13px;
+      font-weight: 700;
+      letter-spacing: .18em;
+    }
+
+    main { padding-bottom: 80px; }
+
+    .eyebrow {
+      font-size: 12px;
+      font-weight: 600;
+      letter-spacing: .1em;
+      text-transform: uppercase;
+      color: #bdbdbd;
+    }
+
+    h1 {
+      margin: 12px 0 12px;
+      font-size: clamp(36px, 6vw, 52px);
+      font-weight: 700;
+      letter-spacing: -.04em;
+      line-height: 1.1;
+    }
+
+    .intro { font-size: 18px; margin: 0 0 12px; }
+    .updated { font-size: 13px; color: #bdbdbd; margin: 0; }
+    .rule { height: 1px; background: #333; margin: 36px 0; }
+    section { margin-top: 36px; }
+
+    h2 {
+      margin: 0 0 14px;
+      font-size: 21px;
+      font-weight: 650;
+      line-height: 1.35;
+      letter-spacing: -.02em;
+    }
+
+    p { margin: 0 0 16px; }
+    p:last-child { margin-bottom: 0; }
+    strong { font-weight: 650; }
+    footer { border-top: 1px solid #333; padding: 26px 0 42px; font-size: 13px; color: #bdbdbd; }
+
+    @media (max-width: 480px) {
+      header { padding: 28px 0 40px; }
+      main { padding-bottom: 56px; }
+      section { margin-top: 30px; }
     }
   </style>
 </head>
 <body>
-  <main>
-    <h1>Support</h1>
-    <p>For support with Aglaonice, email contact@dmammedov.dev.</p>
-  </main>
+<header class="container">
+<div class="brand">AGLAONICE</div>
+</header>
+<main class="container" id="main">
+<div class="eyebrow">Aglaonice · AI Lunar Oracle</div>
+<h1>Support</h1>
+<p class="intro">Contact Aglaonice support.</p>
+<p class="updated">Last updated: November 18, 2026</p>
+<div aria-hidden="true" class="rule"></div>
+
+
+
+
+
+
+
+
+</section><section aria-labelledby="contact"><h2 id="contact">Support</h2>
+<p>For support with Aglaonice, email contact@dmammedov.dev.</p>
+</section></main>
+<footer>
+<div class="container">© 2026 Aglaonice. All rights reserved.</div>
+</footer>
 </body>
 </html>
